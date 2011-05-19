@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigifySalesMVC.Web", "DigifySalesMVC.Web\DigifySalesMVC.Web.csproj", "{F30AD4EC-716A-4625-AF62-0A5936E1D2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigifySalesMVC.Web.Test", "DigifySalesMVC.Web.Test\DigifySalesMVC.Web.Test.csproj", "{46BAC1E7-D055-4461-8BDC-6EC14E714943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F30AD4EC-716A-4625-AF62-0A5936E1D2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30AD4EC-716A-4625-AF62-0A5936E1D2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30AD4EC-716A-4625-AF62-0A5936E1D2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30AD4EC-716A-4625-AF62-0A5936E1D2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BAC1E7-D055-4461-8BDC-6EC14E714943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BAC1E7-D055-4461-8BDC-6EC14E714943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BAC1E7-D055-4461-8BDC-6EC14E714943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BAC1E7-D055-4461-8BDC-6EC14E714943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
