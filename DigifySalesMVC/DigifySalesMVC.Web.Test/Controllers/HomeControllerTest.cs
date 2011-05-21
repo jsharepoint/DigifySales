@@ -14,7 +14,7 @@ namespace DigifySalesMVC.Web.Test.Controllers
 
             ActionResult result = homeController.Index();
 
-            Assert.IsInstanceOf(typeof(ViewResult), result);
+            Assert.IsInstanceOf<ViewResult>(result);
         }
     }
 }
