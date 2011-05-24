@@ -2,5 +2,48 @@
     ViewBag.Title = "Digify";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<img src="@Url.Content("~/Content/images/digifylogo.png")" alt="Digify" />
+<div class="bgtop">
+    <div class="bgbtm">
+        <div id="box1">
+            <h1>
+                Sales & Master Distributer to the World</h1>
+            <img src="@Url.Content("~/content/images/MarkStewart.jpg")" alt="" width="74" height="111" class="left" />
+            <p>
+                Mark Stewart began as the distributer for Digimetrics test and measurement software
+                since 2009. Digify LLC was founded in 2011 offering sales and master distributorship
+                services reaching post production, cable, satellite, telecommunication and broadcasting
+                clients around the world.</p>
+        </div>
+        <div class="hr1">
+            &nbsp;</div>
+        <!-- end #box1 -->
+        <div class="two-columns">
+            <div id="box2" class="column1">
+                <h2>
+                    Referrals</h2>
+                <img src="@Url.Content("~/content/images/world.jpg")" alt="" width="98" height="95" class="left" />
+                <p>
+                    If you are looking to sell your product worldwide please contact us.</p>
+                <p>
+                    @Html.ActionLink("Contact Us", "Index", "Contact", new { @class = "link1" })
+                </p>
+            </div>
+            <!-- end #box2.column1 -->
+            <div id="box3" class="column2">
+                <h2>
+                    Links</h2>
+                <p>
+                    @Html.ActionLink("Marketing Materials", "Index", "Marketing", null, new { @class = "link1" })<br />
+                    @Html.ActionLink("Support", "Index", "Support", null, new { @class = "link1" })<br />
+                    @Html.ActionLink("Return Policy", "Index", "Returns", null, new { @class = "link1" })<br />
+                    @Html.ActionLink("Terms and Conditions", "Index", "Terms", null, new { @class = "link1" })<br />
+                    @Html.ActionLink("Privacy Policy", "Index", "Privacy", null, new { @class = "link1" })<br />
+                </p>
+            </div>
+            <!-- end #box3.column2 -->
+            <div style="clear: both;">
+                &nbsp;</div>
+        </div>
+        <!-- end .two-columns -->
+    </div>
+</div>

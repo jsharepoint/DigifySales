@@ -1,0 +1,63 @@
+
+/** BASIC */
+
+html, body {
+	height: 100%;
+}
+
+/** HEADER */
+
+#header {
+	margin: 0px auto;
+}
+
+/** LOGO */
+
+#logo {
+	float: right;
+	width: 639px;
+	height: 195px;
+	background: url(images/homepage02.jpg) no-repeat left top;
+}
+
+#logo h1, #logo h2 {
+	margin: 0px;
+	text-indent: -9999em;
+}
+
+/** MENU */
+
+#menu {
+	float: left;
+}
+
+/** PAGE */
+
+#page {
+	margin: 0px auto 12px auto;
+}
+
+/** CONTENT */
+
+#content {
+	float: right;
+}
+
+/** 2-COLUMN LAYOUT */
+
+.two-columns {
+}
+
+.two-columns .column1 {
+	float: left;
+}
+
+.two-columns .column2 {
+	float: right;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+	float: left;
+}

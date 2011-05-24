@@ -62,7 +62,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\HardwareController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MarketingController.cs" />
+    <Compile Include="Controllers\PrivacyController.cs" />
+    <Compile Include="Controllers\ProductsAndServicesController.cs" />
+    <Compile Include="Controllers\ReturnsController.cs" />
+    <Compile Include="Controllers\SupportController.cs" />
+    <Compile Include="Controllers\TermsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -70,6 +79,28 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\images\digifylogo.png" />
+    <Content Include="Content\images\homepage01.jpg" />
+    <Content Include="Content\images\homepage02.jpg" />
+    <Content Include="Content\images\homepage03.jpg" />
+    <Content Include="Content\images\homepage04.jpg" />
+    <Content Include="Content\images\homepage05.gif" />
+    <Content Include="Content\images\homepage06.gif" />
+    <Content Include="Content\images\homepage07.jpg" />
+    <Content Include="Content\images\homepage08.jpg" />
+    <Content Include="Content\images\homepage09.jpg" />
+    <Content Include="Content\images\homepage10.jpg" />
+    <Content Include="Content\images\homepage11.jpg" />
+    <Content Include="Content\images\homepage12.jpg" />
+    <Content Include="Content\images\homepage13.jpg" />
+    <Content Include="Content\images\MarkStewart.jpg" />
+    <Content Include="Content\images\spacer.gif" />
+    <Content Include="Content\images\subpage01.gif" />
+    <Content Include="Content\images\subpage02.jpg" />
+    <Content Include="Content\images\subpage03.jpg" />
+    <Content Include="Content\images\subpage04.jpg" />
+    <Content Include="Content\images\subpage05.gif" />
+    <Content Include="Content\images\world.jpg" />
+    <Content Include="Content\layout.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -139,6 +170,33 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ProductsAndServices\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\About\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Contact\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Hardware\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Marketing\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Support\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Returns\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Terms\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Privacy\Index.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
