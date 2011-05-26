@@ -6,7 +6,7 @@
     <div class="bgbtm">
         <div id="box1">
             <h1>
-                Sales & Master Distributer to the World</h1>
+                Sales &amp; Master Distributer to the World</h1>
             <img src="@Url.Content("~/content/images/MarkStewart.jpg")" alt="" width="74" height="111" class="left" />
             <p>
                 Mark Stewart began as the distributer for Digimetrics test and measurement software
@@ -20,12 +20,11 @@
         <div class="two-columns">
             <div id="box2" class="column1">
                 <h2>
-                    Referrals</h2>
+                    Contact Us</h2>
                 <img src="@Url.Content("~/content/images/world.jpg")" alt="" width="98" height="95" class="left" />
-                <p>
-                    If you are looking to sell your product worldwide please contact us.</p>
-                <p>
-                    @Html.ActionLink("Contact Us", "Index", "Contact", new { @class = "link1" })
+                <p class="align-left">
+                    If you are looking to sell your product worldwide please
+                    @Html.ActionLink("contact us", "Index", "Contact").<br />
                 </p>
             </div>
             <!-- end #box2.column1 -->
@@ -37,7 +36,6 @@
                     @Html.ActionLink("Support", "Index", "Support", null, new { @class = "link1" })<br />
                     @Html.ActionLink("Return Policy", "Index", "Returns", null, new { @class = "link1" })<br />
                     @Html.ActionLink("Terms and Conditions", "Index", "Terms", null, new { @class = "link1" })<br />
-                    @Html.ActionLink("Privacy Policy", "Index", "Privacy", null, new { @class = "link1" })<br />
                 </p>
             </div>
             <!-- end #box3.column2 -->

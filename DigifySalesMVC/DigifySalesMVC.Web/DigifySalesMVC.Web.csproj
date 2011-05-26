@@ -67,7 +67,6 @@
     <Compile Include="Controllers\HardwareController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MarketingController.cs" />
-    <Compile Include="Controllers\PrivacyController.cs" />
     <Compile Include="Controllers\ProductsAndServicesController.cs" />
     <Compile Include="Controllers\ReturnsController.cs" />
     <Compile Include="Controllers\SupportController.cs" />
@@ -79,6 +78,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\images\digifylogo.png" />
+    <Content Include="Content\images\digimetrics.png" />
+    <Content Include="Content\images\dts2144.png" />
     <Content Include="Content\images\homepage01.jpg" />
     <Content Include="Content\images\homepage02.jpg" />
     <Content Include="Content\images\homepage03.jpg" />
@@ -196,7 +197,9 @@
     <Content Include="Views\Terms\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Privacy\Index.cshtml" />
+    <None Include="Content\docs\Aurora3_1Brochure.pdf" />
+    <None Include="Content\docs\Digimetrics_DCA_Terms2011.pdf" />
+    <None Include="Content\docs\DTA-2144Leaflet.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

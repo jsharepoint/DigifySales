@@ -2,5 +2,16 @@
     ViewBag.Title = "Digify - Terms and Conditions";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h2>
-    Terms and Conditions</h2>
+<div class="bgtop">
+    <div class="bgbtm">
+        <div id="box1">
+            <h1>
+                Terms and Conditions</h1>
+            @*The design puts a line across the bottom without padding. 
+                You can remove this if you add more content.*@
+            <p style="padding-bottom: 100px;">
+                <a href="@Url.Content("~/Content/docs/Digimetrics_DCA_Terms2011.pdf")">Digimetrics Standard
+                    Terms and Conditions</a></p>
+        </div>
+    </div>
+</div>

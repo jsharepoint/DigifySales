@@ -71,6 +71,16 @@ p, ul, ol, dl
     background: url(images/homepage05.gif) no-repeat left center;
 }
 
+.bold
+{
+    font-weight: bold;
+}
+
+.light
+{
+    color: #DEDEDE;
+}
+
 /** LINKS */
 
 a
@@ -128,6 +138,11 @@ a.link2
 .align-right
 {
     text-align: right;
+}
+
+.align-left
+{
+    text-align: left;
 }
 
 img
