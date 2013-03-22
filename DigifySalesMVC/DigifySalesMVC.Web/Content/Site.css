@@ -3,8 +3,8 @@
 
 body
 {
-    margin: 70px 0px;
-    padding: 0px;
+    margin: 70px 0;
+    padding: 0;
     background: url(images/homepage01.jpg) repeat left top;
 }
 
@@ -12,15 +12,15 @@ body
 
 form
 {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 /** HEADINGS */
 
 h1, h2, h3
 {
-    margin: 0px 0px 25px 0px;
+    margin: 0 0 25px 0;
     color: #DEDEDE;
 }
 
@@ -50,7 +50,7 @@ body, th, td, input, textarea, select
 
 p, ul, ol, dl
 {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 1.8em;
     text-align: justify;
     line-height: 190%;
@@ -58,8 +58,8 @@ p, ul, ol, dl
 
 .list1
 {
-    margin-left: 0px;
-    padding-left: 0px;
+    margin-left: 0;
+    padding-left: 0;
     list-style: none;
     line-height: 280%;
     font-size: 10px;
@@ -96,14 +96,14 @@ a:hover
 a.link1
 {
     position: relative;
-    padding: 2px 0px 3px 24px;
+    padding: 2px 0 3px 24px;
     background: url(images/homepage05.gif) no-repeat left center;
 }
 
 a.link2
 {
     position: relative;
-    padding: 2px 0px 3px 24px;
+    padding: 2px 0 3px 24px;
     background: url(images/subpage05.gif) no-repeat left center;
     color: #FDD173;
 }
@@ -153,13 +153,13 @@ img
 img.left
 {
     float: left;
-    margin: 0px 25px 0px 0px;
+    margin: 0 25px 0 0;
 }
 
 img.right
 {
     float: right;
-    margin: 0px 0px 0px 25px;
+    margin: 0 0 0 25px;
 }
 
 img.border
@@ -197,15 +197,15 @@ hr
 #menu ul
 {
     width: 197px;
-    margin: 0px;
-    padding: 30px 0px 0px 30px;
+    margin: 0;
+    padding: 30px 0 0 30px;
     list-style: none;
     line-height: normal;
 }
 
 #menu li
 {
-    padding: 8px 0px;
+    padding: 8px 0;
     background: url(images/subpage01.gif) repeat-x left top;
 }
 
@@ -218,6 +218,7 @@ hr
 {
     text-decoration: none;
     color: #FFFFFF;
+    font-size: larger;
 }
 
 #menu a:hover
@@ -255,7 +256,7 @@ hr
 
 .two-columns
 {
-    background: url(images/homepage08.jpg) repeat-y 270px 0px;
+    background: url(images/homepage08.jpg) repeat-y 270px 0;
 }
 
 .two-columns .column1
@@ -282,13 +283,13 @@ hr
     clear: both;
     width: 900px;
     height: 68px;
-    margin: 0px auto;
+    margin: 0 auto;
     background: url(images/homepage13.jpg) no-repeat left top;
 }
 
 #footer p
 {
-    margin: 0px;
+    margin: 0;
     padding-top: 28px;
     line-height: normal;
     text-align: center;
@@ -318,7 +319,7 @@ hr
 #box4
 {
     background: url(images/homepage09.jpg) repeat-y left top;
-    color: #EEC492;
+    color: #EEE;
 }
 
 #box4 .bgtop
@@ -328,7 +329,7 @@ hr
 
 #box4 .bgbtm
 {
-    padding: 50px 30px 0px 30px;
+    padding: 50px 30px 0 30px;
     background: url(images/homepage11.jpg) no-repeat left bottom;
 }
 
@@ -343,8 +344,8 @@ hr
 
 #box5
 {
-    padding: 40px 0px 0px 40px;
-    background: url(images/homepage12.jpg) no-repeat 0px 5px;
+    padding: 40px 0 0 40px;
+    background: url(images/homepage12.jpg) no-repeat 0 5px;
 }
 
 #box5 .bgright

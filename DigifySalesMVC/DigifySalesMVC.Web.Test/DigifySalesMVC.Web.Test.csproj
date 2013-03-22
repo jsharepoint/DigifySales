@@ -50,15 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\AboutControllerTest.cs" />
-    <Compile Include="Controllers\ContactControllerTest.cs" />
-    <Compile Include="Controllers\HardwareControllerTest.cs" />
+    <Compile Include="Controllers\ExperienceControllerTest.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
-    <Compile Include="Controllers\MarketingControllerTest.cs" />
-    <Compile Include="Controllers\ProductsAndServicesTest.cs" />
-    <Compile Include="Controllers\ReturnsControllerTest.cs" />
-    <Compile Include="Controllers\SupportControllerTest.cs" />
-    <Compile Include="Controllers\TermsControllerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

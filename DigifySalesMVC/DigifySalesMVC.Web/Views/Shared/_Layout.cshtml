@@ -1,16 +1,14 @@
 ﻿<!DOCTYPE html>
 <html>
-<head class="no-js">
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/favicon.png" />
-    <title>@ViewBag.Title</title>
-    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
-    <link href="@Url.Content("~/Content/layout.css")" rel="stylesheet" type="text/css" />
-    <script src="@Url.Content("~/Scripts/jquery-1.5.1.min.js")" type="text/javascript"></script>
-    <script src="@Url.Content("~/Scripts/modernizr-1.7.min.js")" type="text/javascript"></script>
+    <title>@this.ViewBag.Title</title>
+    <link href="@this.Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <link href="@this.Url.Content("~/Content/layout.css")" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div id="header">
@@ -23,10 +21,8 @@
         <!-- end #logo -->
         <div id="menu">
             <ul>
-                <li class="first">@Html.ActionLink("Home", "Index", "Home")</li>
-                <li>@Html.ActionLink("Products & Services", "Index", "ProductsAndServices")</li>
-                <li>@Html.ActionLink("Contact Us", "Index", "Contact")</li>
-                <li>@Html.ActionLink("Hardware Recommendations", "Index", "Hardware")</li>
+                <li class="first"><a href="/">Home</a></li>
+                <li>@Html.ActionLink("Experience", "Index", "Experience")</li>
             </ul>
         </div>
         <!-- end #menu -->
@@ -34,7 +30,7 @@
     <!-- end #header -->
     <div id="page">
         <div id="content">
-            @RenderBody()
+            @this.RenderBody()
         </div>
         <!-- end #content -->
         <div id="sidebar">
@@ -42,11 +38,20 @@
                 <div class="bgtop">
                     <div class="bgbtm">
                         <h2>
-                            News</h2>
+                            Qualifications</h2>
                         <ul class="align-left">
-                            <li>2011 Digify becomes the distributor for Dektec</li>
-                            <li>2011 Digify LLC is founded</li>
-                            <li>2009 Mark Stewart becomes the distributor for Digimetrics</li>
+                            <li>Prospecting/Client Cultivation</li>
+                            <li>Account Development</li>
+                            <li>New Product Launching</li>
+                            <li>Competitive/Strategic Planning</li>
+                            <li>Negotiating Contracts</li>
+                            <li>Closing Hard Sales</li>
+                            <li>Networking</li>
+                            <li>Budgeting/Forecasting</li>
+                            <li>International Trade Shows</li>
+                            <li>Organization</li>
+                            <li>Relationship Selling</li>
+                            <li>Advertising/Marketing</li>
                         </ul>
                         <br style="clear: both;" />
                     </div>
@@ -56,10 +61,10 @@
             <div id="box5">
                 <div class="bgright">
                     <h2>
-                        Partners</h2>
+                        Contact</h2>
                     <ul class="list1">
-                        <li><a href="http://www.dektec.com">Dektec</a></li>
-                        <li><a href="http://www.digi-metrics.com">Digimetrics</a></li>
+                        <li><a href="mailto:ms4059@att.com">Email</a></li>
+                        <li><a href="http://www.linkedin.com/in/digifysales">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>

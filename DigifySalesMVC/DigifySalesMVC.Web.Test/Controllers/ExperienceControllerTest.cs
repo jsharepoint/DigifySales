@@ -5,14 +5,14 @@ using System.Web.Mvc;
 namespace DigifySalesMVC.Web.Test.Controllers
 {
     [TestFixture]
-    public class HomeControllerTest
+    public class ExperienceControllerTest
     {
         [Test]
         public void Index_ReturnsView()
         {
-            var homeController = new HomeController();
+            var experienceController = new ExperienceController();
 
-            ActionResult result = homeController.Index();
+            ActionResult result = experienceController.Index();
 
             Assert.IsInstanceOf<ViewResult>(result);
         }
